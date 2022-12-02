@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 }
 
-li a:hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -128,6 +128,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  background-color: #f2f2f2;
 }
 
 .panel {
@@ -143,4 +144,8 @@ footer {
 
 .leaf {
   width: 12px;
+}
+
+.carbon a {
+  margin-left: 5px;
 }
